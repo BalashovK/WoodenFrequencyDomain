@@ -1,5 +1,6 @@
 # WoodenFrequencyDomain
 Frequency domain is made out of wood and looks like this:
+
 ![Wooden Frequency Domain](wooden_frequency_domain.png?raw=true "Wooden Frequency Domain")
 
 The python code in WoodenFrequencyDomain.py just plots Frequency domain.
