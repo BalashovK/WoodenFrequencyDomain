@@ -17,7 +17,7 @@ fft2d_result = np.fft.fft2(gaussian_spatial)
 # It is complex. Let's simplify things and just look at magnitude
 magnitude = np.abs(fft2d_result)
 
-# Value range is too large. Let's look at logarighm instead
+# Value range is too large. Let's look at logarithm instead
 logged_magnitude = np.log(-magnitude + 1e-9) # add epsilon 1e-9 because logarithm likes to stay positive
 
 # Now let's look around 
